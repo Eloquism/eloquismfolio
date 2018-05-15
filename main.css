@@ -39,11 +39,16 @@ img {
   font-size: 120px;
   padding: 16px 32px;
     font-weight: bold;
+	font-variant: small-caps;
 }
 
 .hvrimage {
-    position: relative;
-    font-family: monospace;
+    font-family: "helvetica", "helvetica neue";
+	background-image: url("20180218_201558 (1).jpg");
+	background position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
 }
 
 .sub-text {
@@ -89,6 +94,7 @@ nav {
 #mySidenav {
     padding: 0px;
     padding-top: 60px;
+	font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 
 .sidenav {
@@ -107,10 +113,12 @@ nav {
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 60px;
     color: #818181;
     display: block;
-    transition: 0.3s
+    transition: 0.3s;
+	text-align: center;
+	font-family: Helvetica, "Helvetica Neue";
 }
 
 .sidenav a:hover, .offcanvas a:focus{
@@ -296,8 +304,23 @@ ul {
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 60px;
     color: #333;
     display: block;
     transition: 0.2s;
+}
+
+
+
+.image {
+	
+}
+
+
+body {
+	height: 100%;
+}
+
+html {
+	height: 100%;
 }
